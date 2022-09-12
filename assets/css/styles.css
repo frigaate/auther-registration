@@ -1,0 +1,55 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auther{
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1)100%);
+}
+
+.auther-logo{
+    max-width: 100px;
+}
+
+.auther-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.auther-wrapper{
+    border: 1px solid #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auther-wrapper-company{
+    border: 1px solid #ffff;
+    justify-content: flex-end;
+}
+
+.company-image{
+    height: 250px;
+    width: 250px;
+}
